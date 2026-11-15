@@ -1,0 +1,50 @@
+{
+  "success": true,
+  "results": [
+    {
+      "platform": "DEV Community",
+      "status": "failed",
+      "posted_url": null,
+      "public_access": false,
+      "date": null,
+      "time": null,
+      "error": "Authentication or permission denied"
+    },
+    {
+      "platform": "WordPress.com",
+      "status": "success",
+      "posted_url": "https://test.wordpress.com/demo",
+      "public_access": true,
+      "date": "2026-11-15",
+      "time": "06:28:31",
+      "error": null
+    },
+    {
+      "platform": "Mastodon",
+      "status": "success",
+      "posted_url": "https://mastodon.social/@test/1",
+      "public_access": true,
+      "date": "2026-11-15",
+      "time": "06:28:31",
+      "error": null
+    },
+    {
+      "platform": "Bluesky",
+      "status": "success",
+      "posted_url": "https://bsky.app/profile/did:plc:test/post/abc",
+      "public_access": true,
+      "date": "2026-11-15",
+      "time": "06:28:31",
+      "error": null
+    },
+    {
+      "platform": "Telegram",
+      "status": "success",
+      "posted_url": "https://t.me/testchannel/7",
+      "public_access": true,
+      "date": "2026-11-15",
+      "time": "06:28:31",
+      "error": null
+    }
+  ]
+}

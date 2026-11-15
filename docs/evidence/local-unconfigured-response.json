@@ -1,0 +1,50 @@
+{
+  "success": false,
+  "results": [
+    {
+      "platform": "DEV Community",
+      "status": "failed",
+      "posted_url": null,
+      "public_access": false,
+      "date": null,
+      "time": null,
+      "error": "Missing configuration: DEVTO_API_KEY"
+    },
+    {
+      "platform": "WordPress.com",
+      "status": "failed",
+      "posted_url": null,
+      "public_access": false,
+      "date": null,
+      "time": null,
+      "error": "Missing configuration: WORDPRESS_ACCESS_TOKEN, WORDPRESS_SITE_ID"
+    },
+    {
+      "platform": "Mastodon",
+      "status": "failed",
+      "posted_url": null,
+      "public_access": false,
+      "date": null,
+      "time": null,
+      "error": "Missing configuration: MASTODON_ACCESS_TOKEN"
+    },
+    {
+      "platform": "Bluesky",
+      "status": "failed",
+      "posted_url": null,
+      "public_access": false,
+      "date": null,
+      "time": null,
+      "error": "Missing configuration: BLUESKY_IDENTIFIER, BLUESKY_APP_PASSWORD"
+    },
+    {
+      "platform": "Telegram",
+      "status": "failed",
+      "posted_url": null,
+      "public_access": false,
+      "date": null,
+      "time": null,
+      "error": "Missing configuration: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID"
+    }
+  ]
+}

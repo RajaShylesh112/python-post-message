@@ -1,0 +1,14 @@
+INFO app.services.posting_service platform=DEV Community status=success
+INFO app.services.posting_service platform=WordPress.com status=success
+INFO app.services.posting_service platform=Mastodon status=success
+INFO app.services.posting_service platform=Bluesky status=success
+INFO app.services.posting_service platform=Telegram status=success
+INFO app.services.posting_service platform=DEV Community status=failed
+INFO app.services.posting_service platform=WordPress.com status=success
+INFO app.services.posting_service platform=Mastodon status=success
+INFO app.services.posting_service platform=Bluesky status=success
+INFO app.services.posting_service platform=Telegram status=success
+OFFLINE DEMO: simulated upstream responses; no real posts or credentials.
+POST /posting -> 200; all five simulated publications succeeded
+POST /posting -> 200; DEV rejected; other four simulated publications succeeded
+POST /posting with missing CTA -> 422; no upstream requests

@@ -1,0 +1,16 @@
+{
+  "detail": [
+    {
+      "type": "value_error",
+      "loc": [
+        "body",
+        "message"
+      ],
+      "msg": "Value error, Message must contain exactly one absolute HTTP(S) CTA URL",
+      "input": "Missing CTA",
+      "ctx": {
+        "error": {}
+      }
+    }
+  ]
+}
